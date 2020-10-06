@@ -1,11 +1,11 @@
 <div class="container">
-    <div class="jumbotron">
+    <div class="form">
 
 
         <app-user-form (addUser)="check($event)"></app-user-form>
 
-    <div class="jumbotron">
-                <blockquote class="text-center text-lg">
+        <div class="content" >
+            <blockquote>
                 <img src="{{repos.avatar_url}}" width="200px">
                 <h4>Username: {{repos.login}}</h4>
                 <h4>Repository: {{repos.public_repos}}</h4>
